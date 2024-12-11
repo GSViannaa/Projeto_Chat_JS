@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style_loginPage.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_circle,arrow_back,arrow_upward_alt,chevron_left,chevron_rigth,close,filter_list,shopping_cart"
+    rel="stylesheet"
+  />
+</head>
+<body>
+    <main>
+
+        <div id="goBack"  onclick="history.back()">
+            <span class="material-symbols-outlined">
+                arrow_back
+                </span>
+        </div>
+
+            <div id="paraLogin">
+
+                <section>
+                    <div style="width: 250px; height: 250px;" id="bordaFotoPerfil" class="borda"><img  id="fotoPerfil" src="" alt=""></div>
+
+                </section>
+                <section id="dados">
+
+                    <span class="material-symbols-outlined" onclick="loginShow()"> close </span>
+            
+
+                    <section style="margin-top: 110px;">
+                        <input type="text" id="nome" placeholder="Nome de usuário">
+                        <input type="password" placeholder="Senha" id="senha">
+    
+                        <button onclick="fazerLogin()" style="width: 100px;">Log in</button>
+        
+                    </section>
+                  
+                </section>
+            </div>
+
+         
+        <div id="mostrarUsers">
+            <h1 class="title">Clique em um Perfil para fazer Login!</h1> 
+
+            <section id="paraPesquisa"> 
+                <input type="text" id="pesquisa" placeholder="Nome de usuário">
+                <div  id="buttonPesquisar" onclick="pesquisar()"> Pesquisar</div>
+            </section>
+            
+
+            <div id="paraCards">
+            </div>
+
+           
+              </div>
+
+    </main>
+    <script src="/scripts/script_Login.js"></script>
+</body>
+</html>

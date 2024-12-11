@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+  }
+  html {
+    scroll-behavior: smooth;
+    
+  }
+  body {
+    margin: 0; 
+    height: 100vh; 
+    
+  }
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url(/imgs/coffee-8478202_1920.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #goBack {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    margin-left: 30px;
+    margin-top: 25px;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: rgba(182, 164, 130, 0.979);
+    cursor: pointer;
+    font-size: 18px;
+    transition: .6s;
+  }
+  #goBack:hover {
+    transform: scale(1.1);
+  }
+
+#paraLogin {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 700px;
+  height: 600px;
+  top: 20%;
+  left: calc(50% - 350px);
+  background-color: rgba(153, 126, 77, 0.925);
+  position: fixed;
+  border-radius: 20px;
+  border: solid rgb(90, 72, 48);
+  transition: 0.2s ease-in;
+  display: none;
+  grid-template-columns: 350px 350px;
+  place-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+#fotoPerfil {
+    border-radius: 50%;
+    border: solid rgb(90, 72, 48);
+    width: 100%;
+    height: 100%;
+}
+#dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dados input {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px;
+ 
+}
+
+#dados span {
+  margin-top: -195px;
+  margin-bottom: 80px;
+  margin-right: -270px;
+  font-size: 35px;
+  cursor: pointer;
+  color: rgb(90, 72, 48);
+
+}
+
+#mostrarUsers {
+  width: 1000px;
+  height: 900px;
+  background-color: rgba(182, 164, 130, 0.568);
+  border-radius: 21px;
+  margin-left: calc(50% - 490px);
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(90, 72, 48) ;
+}
+.title {
+  color: rgb(90, 72, 48) ;
+  text-decoration: underline;
+  position: absolute;
+  top: 0;
+}
+#paraPesquisa{
+  display: flex;
+  width: 800px;
+  flex-direction: row;
+  margin: 10px;
+  margin-left: calc(50% - 100px);
+}
+#paraPesquisa #buttonPesquisar {
+  background-color: rgb(184, 157, 107);
+  color:rgb(90, 72, 48);
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: solid ;
+  justify-content: center;
+  border-radius: 9px;
+  margin: 10px;
+} 
+#paraPesquisa input {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px;
+}
+#paraCards  {
+  width: 800px;
+  height: 700px;
+  border-radius: 21px;
+  margin-left: calc(50% - 400px);
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(90, 72, 48) ;
+  overflow-y: scroll;
+
+}
+.cardUser {
+  margin-top: 20px;
+  width: 600px;
+  height: 120px; 
+  display: flex;
+  margin-left: calc(50% - 500px);
+  background-color: rgba(185, 165, 127, 0.918);
+  border-radius: 21px;
+  border: solid rgb(90, 72, 48);
+  cursor: pointer;
+  transition: .6s;
+}
+.cardUser:hover {
+  transform: scale(1.1);
+}
+.cardUser img {
+  border-radius: 50%;
+  border: solid rgb(90, 72, 48);
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+} 
+.cardUser p {
+  font-size: 27px;
+  margin: 10px;
+  margin-top: calc(50% - 260px);
+  color: rgb(90, 72, 48) ;
+}
+.initial {
+  font-size: 40px;
+  margin: 30px;
+}
+.borda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: solid rgb(90, 72, 48);
+  margin: 10px;
+}

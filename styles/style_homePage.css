@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+  }
+  html {
+    scroll-behavior: smooth;
+    
+  }
+  body {
+    margin: 0; 
+    height: 100vh; 
+    
+  }
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url(/imgs/coffee-8478202_1920.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+#paraCadastro {
+  width: 1000px;
+  height: 600px;
+  background-color: rgba(182, 164, 130, 0.568);
+  border-radius: 21px;
+  margin-left: calc(50% - 490px);
+  display: grid;
+  grid-template-columns: 500px 500px;
+  place-items: center;
+  justify-content: space-between;
+}
+#sectionIcons {
+  color: rgb(77, 47, 16) ;
+  text-decoration: underline;
+}
+#paraDados{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+#paraDados input {
+  text-align: center;
+  margin: 19px;
+  width: 250px;
+  height: 30px;
+  border-radius: 8px;
+}
+#paraDados button {
+  color: rgb(168, 117, 51);
+  width: 120px;
+  height: 35px;
+  border-radius: 19px;
+  background-color: rgb(77, 47, 16); 
+  border: solid;
+}
+#paraDados a {
+  text-decoration: none;
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+
+}
+#paraDados p {
+  font-size: 25px;
+  margin-top: 80px;
+}
